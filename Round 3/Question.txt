@@ -1,0 +1,52 @@
+Movie Ticket Booking System
+We want to build an application which helps a moving theater company in managing ticket
+booking across India.
+1. There is a Movie Theater company having theaters across the country, with each theater
+having multiple screens.
+2. Theaters have 3 types of screens
+a. Gold (Price - Rs. 400 / per ticket) - 2 seats per screen
+b. IMax (Price - Rs. 300 / per ticket) - 5 seats per screen
+c. General (Price - Rs. 200 / per ticket) - 10 seats per screen
+3. User can book Food & Beverage while booking movie ticket as well
+a. There are 2 items being sold by theater
+i. Popcorn
+ii. Sandwich
+b. Gold ticket users get a 10% discount on food.
+c. Imax ticket users get a 5% discount on food.
+
+Assume that:
+1. APIs to register Theaters and Screens are not needed. It can be hard coded in the
+system however models need to be present.
+2. Payment is handled offline. You only need to keep track of the sales.
+3. Assume you have unlimited stock for food.
+4. Seat allocation is automatic in a theater screen.
+5. You can define the price for food on your own and assume it is the same across all
+theaters.
+Demonstrate:
+1. Book a movie ticket
+a. User will decide the
+i. Theater
+ii. Category of ticket (Gold/Imax/General)
+b. Add on food and beverage (optional for user)
+2. Booking cancellation - can only be done 30 min prior to moving timing.
+3. Implement waiting list - if a user is trying to book when screen is sold out
+a. Users can join the waiting list only till 30 minutes prior to movie time.
+b. When a user cancels a ticket and if there is someone in the waiting list they
+should get the ticket in first come first serve order.
+
+Evaluation Criteria:
+1. Code walkthrough to showcase structure and modelling.
+2. Use object oriented programming concepts.
+3. A demonstration of the functional requirements stated above.
+For the demonstration, you can choose any of - CLI, API, Unit tests or a runner class.
+
+Additional notes:
+1. You may use any programming language
+2. Database is optional. We don’t recommend setting up a db, it takes a lot of time.
+In memory stores or flat files are acceptable for storing data.
+3. You may access documentation and any other resources as needed.
+4. Things that will get you disqualified
+a. Blatant copy of code from internet
+b. Not sharing your entire screen
+c. Keeping mic or video off
+d. Using any AI assistant tool like github co-pilot, chat-gpt, etc.
